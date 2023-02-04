@@ -25,7 +25,7 @@
 * Classes: Monday and Thursday  (1 – 3 PM) / 5 Weeks
 * Starts: 13 February.
 * Ends: 17 March
-* ZOOM Link Classes: Alejandro TBD
+* ZOOM Link Classes: TBD
  
 ## General Requirements
 General requirements. Please be aware that a set of requirements especific for each session will be shown in each session subsection (Some items may be repeated).
@@ -40,7 +40,7 @@ General requirements. Please be aware that a set of requirements especific for e
 
   <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/TE3001B_Fundamentals_of_Robotics/blob/main/Misc/Logos/Hardware.png">
-  <img alt="Shows Hardware required." width="160" align="center">
+  <img alt="Shows Hardware required." align="center">
 </picture>
 
 
