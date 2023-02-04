@@ -37,12 +37,14 @@ General requirements. Please be aware that a set of requirements especific for e
 * Basic understanding of robotics (recommended).
 * Access to Hackerboard and a MCR2 DC motor. 
   * In case you have no access to the Hackeborad, the hardware can be replaced for an Arduino Mega, a L298n Motor Driver and a DC motor brushed with encoder (More information MCR2_General_Information_Prerequisites).
-
+  <br/><br/><br/>
+  
   <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/TE3001B_Fundamentals_of_Robotics/blob/main/Misc/Logos/Hardware.png">
-  <img alt="Shows Hardware required." align="center">
+  <img alt="Shows Hardware required." width="650" align="center">
 </picture>
 
+<br/><br/>
 
 ## Weekly Sessions
 
