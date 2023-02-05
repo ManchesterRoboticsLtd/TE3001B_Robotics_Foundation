@@ -58,8 +58,10 @@ General requirements. Please be aware that a set of requirements especific for e
   * Launch files
   *	Activity 2: Launch Files
   * Q&A
-  * **Mini challenge:** Generate a node that send a signal to another node to process it.
-  * **Requirements:** Computer with access to Zoom, Ubuntu 18.04 and ROS Melodic Installed (Full installation). In case Ubuntu 18.04 cannot be installed, MCR2 offers a Virtual Machine with ROS preinstalled (installation instructions in Week 1 Folder).
+  
+  **Mini challenge:** Generate a node that send a signal to another node to process it.
+  
+  **Requirements:** Computer with access to Zoom, Ubuntu 18.04 and ROS Melodic Installed (Full installation). In case Ubuntu 18.04 cannot be installed, MCR2 offers a Virtual Machine with ROS preinstalled (installation instructions in Week 1 Folder).
   
   ### Week 2: (ROS Practicalities)  
   This week will introduce some useful ROS practicalities.
@@ -71,8 +73,10 @@ General requirements. Please be aware that a set of requirements especific for e
   #### Session 2:
   * Control Basics: Continuous time only/ no theory just practicalities.
   * Q&A
-  * Mini challenge: P/PI Controller from scratch to a 1st order simulated system.
-  * **Requirements:** Requirements of Session 1.
+  
+  **Mini challenge:**: P/PI Controller from scratch to a 1st order simulated system.
+  
+  **Requirements:** Requirements of Session 1.
 
   ### Week 3: ROS-Hardware Communication
   This week will introduce hardware communication between ROS and the Hackerboard using ROSSerial.
@@ -81,24 +85,33 @@ General requirements. Please be aware that a set of requirements especific for e
   * ROS Serial
   * Arduino
   * ROS Serial/Arduino Communication.
-  * Mini Challenge: Motor Speed regulation using ROS.
+  
+  **Mini challenge:** Motor Speed regulation using ROS.
   #### Session 2:
   * Q&A Session.
-  * **Requirements:** Requirements of Session 1, Installation of the Arduino IDE and the Rosserial package in the VM or Ubuntu (See instructions on Session2 MCR2_Arduino_IDE_Confirguration), Access to Hackerboard and a MCR2 DC motor.
+  
+  **Requirements:** Requirements of Session 1, Installation of the Arduino IDE and the Rosserial package in the VM or Ubuntu (See instructions on Session2 MCR2_Arduino_IDE_Confirguration), Access to Hackerboard and a MCR2 DC motor.
     * In case you have no access to the Hackeborad, the hardware can be replaced for an Arduino Mega, a L298n Motor Driver and a DC motor brushed with encoder (More information MCR2_General_Information_Prerequisites).
   
   ### Week 4: ROS Data Acquisition
   This week will introduce how to acquire data between ROS and the Hackerboard using ROSSerial.
   #### Session 1:
   * Encoder Basic Theory
-  * Mini Challenge: Acquire data from the encoders using Arduino.
-  * Presentation of the Challenge: PID Controller using ROS and compare with simulation.
+  
+  **Mini challenge:** Acquire data from the encoders using Arduino.
+  
+  **Challenge:**: PID Controller using ROS and compare with simulation.
+  
   #### Session 2:
   * Q&A Session.
-
-  ### Week 5:
+  
+  **Requirements:** Requirements of Session 1 and Session 3.
+  
+  ### Week 5: Final Challenge
   Final Challenge presentation week.
   #### Session 1:
   * Q&A Session.
   #### Session 2:
   * Final Challenge.
+  
+  **Requirements:** Requirements of Session 1 and Session 3.
