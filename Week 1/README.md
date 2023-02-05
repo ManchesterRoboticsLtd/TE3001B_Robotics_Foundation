@@ -1,26 +1,26 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ManchesterRoboticsLtd/ROS_TecMty_Professors_2023/blob/main/Misc/Logos/Logotipo%20Vertical%20Bco_Transparente.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/ROS_TecMty_Professors_2023/blob/main/Misc/Logos/Logotipo%20Vertical%20Azul%20transparente.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ManchesterRoboticsLtd/TE3001B_Robotics_Foundation/blob/main/Misc/Logos/Logotipo%20Vertical%20Bco_Transparente.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/TE3001B_Robotics_Foundation/blob/main/Misc/Logos/Logotipo%20Vertical%20Azul%20transparente.png">
   <img alt="Shows ITESM logo in black or white." width="160" align="right">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ManchesterRoboticsLtd/ROS_TecMty_Professors_2023/blob/main/Misc/Logos/MCR2_Logo_White.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/ROS_TecMty_Professors_2023/blob/main/Misc/Logos/MCR2_Logo_Black.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ManchesterRoboticsLtd/TE3001B_Robotics_Foundation/blob/main/Misc/Logos/MCR2_Logo_White.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/TE3001B_Robotics_Foundation/blob/main/Misc/Logos/MCR2_Logo_Black.png">
   <img alt="Shows MCR2 logo in black or white." width="150" align="right">
 </picture>
 
 
 ---
-# Tec de Monterrey CADI Session 1: Introductory session.
+# Robotics Foundation Week 1: Introductory session.
 
-  ## MCR2 Introduction
-  * In this session, we introduce the course given to the professors from the "Socio Formador" Manchester Robotics Ltd.
+  ## Session 1
+  * In this session, we introduce the course given to the students from the "Socio Formador" Manchester Robotics Ltd.
   * We also provide the requirements for this course like Ubuntu / VM's, ROS, etc.
   * Troubleshooting, tips and trick on how to install Ubuntu and ROS are provided.
   * A small intorduction to Ubuntu, how to use it? and some tips are presented. 
   
-  ## ROS Introduction
+  ## Session 2
   * In this session, we introduce the basic concepts of ROS, such as ROS Master, Topics, Nodes, Launch files, etc.
   * The first activity involves the creation of a simple talker and listener nodes.
   * The activities and examples done during the class are located in the folder Activities.
