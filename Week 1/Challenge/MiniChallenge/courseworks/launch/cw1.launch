@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<launch>
+
+<!-- Write your launch file here-->
+
+    <!-- rqt launch example-->
+    <!--  <node name="rqt_plot" pkg="rqt_plot" type="rqt_plot" output="screen"  args="/signal /proc_signal"/> -->   
+</launch>
