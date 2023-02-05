@@ -1,25 +1,25 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ManchesterRoboticsLtd/ROS_TecMty_Professors_2023/blob/main/Misc/Logos/Logotipo%20Vertical%20Bco_Transparente.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/ROS_TecMty_Professors_2023/blob/main/Misc/Logos/Logotipo%20Vertical%20Azul%20transparente.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ManchesterRoboticsLtd/TE3001B_Robotics_Foundation/blob/main/Misc/Logos/Logotipo%20Vertical%20Bco_Transparente.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/TE3001B_Robotics_Foundation/blob/main/Misc/Logos/Logotipo%20Vertical%20Azul%20transparente.png">
   <img alt="Shows ITESM logo in black or white." width="160" align="right">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ManchesterRoboticsLtd/ROS_TecMty_Professors_2023/blob/main/Misc/Logos/MCR2_Logo_White.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/ROS_TecMty_Professors_2023/blob/main/Misc/Logos/MCR2_Logo_Black.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ManchesterRoboticsLtd/TE3001B_Robotics_Foundation/blob/main/Misc/Logos/MCR2_Logo_White.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ManchesterRoboticsLtd/TE3001B_Robotics_Foundation/blob/main/Misc/Logos/MCR2_Logo_Black.png">
   <img alt="Shows MCR2 logo in black or white." width="150" align="right">
 </picture>
 
 ---
-# Tec de Monterrey CADI Session 1: Presentations.
+# Week 1: Presentations.
 
   * In this folder you will find the presentation used during this course
   * The order of the presentations is as follows
   
-  1. MCR2_Introduction.pptx
-  2. MCR2_Robotics_Introduction.pptx
-  3. MCR2_VM_ROS.pptx
-  4. MCR2_ROS_Introduction.pptx
+  1. MCR2_Introduction
+  2. MCR2_Robotics_Introduction
+  3. MCR2_VM_ROS
+  4. MCR2_ROS_Introduction
 
 ---
   ## Presentations
