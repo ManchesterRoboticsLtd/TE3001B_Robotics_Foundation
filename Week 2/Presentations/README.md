@@ -17,6 +17,6 @@
 ---
   ## Presentations
   
-   ### MCR2_Introduction
-   In this presentation you will see a brief story of our company, who we are? where do we come from? what are our mission and values?
-   and how are we trying to make a change?
+   ### MCR2_ROS_Introduction_Practicalities
+   In this presentation covers the following topics:
+   * 
