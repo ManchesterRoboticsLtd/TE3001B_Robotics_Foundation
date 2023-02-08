@@ -11,20 +11,25 @@
 </picture>
 
 ---
-# Robotics Foundation Week 2: Introductory session.
+# Robotics Foundation Week 2: ROS Practicalities.
+  This session is intended for the students to learn some of ROS tools that will be required in the following sessions. 
 
   ## Session 1
-  * In this session, we introduce the course given to the students from the "Socio Formador" Manchester Robotics Ltd.
-  * We also provide the requirements for this course like Ubuntu / VM's, ROS, etc.
-  * Troubleshooting, tips and trick on how to install Ubuntu and ROS are provided.
-  * A small intorduction to Ubuntu, how to use it? and some tips are presented. 
+  * In this session, the concepts of ROS namespaces, and ROS parameter server will be introduced.
+  * Activity 1: Multiple group namespaces
+  * Activity 2: Local, Private and Global parameters. 
+
   
   ## Session 2
-  * In this session, we introduce the basic concepts of ROS, such as ROS Master, Topics, Nodes, Launch files, etc.
-  * The first activity involves the creation of a simple talker and listener nodes.
-  * The activities and examples done during the class are located in the folder Activities.
-  * The Final challenge for this session is located in the folder Challenge. 
-  * Please note: This repository contains all the neccesary files and presentations given during this session and the instructions for each one of the activities of the session.
+  * In this session, the concept of CMake files, Configuration Files and Custom Messages in ROS is introduced.
+  * Activity 1: Generate a custom message for the previous challenge
+  * Activity 2: Parametrise the "process" and "signal_generator" Nodes, and generate a custom message for the previous challenge.
+
+  ## Mini challenge
+  * Create a Simple P or PI controller for a simulated first order process.
+  * The mini challenge and further instructions for this session is located in the folder Challenge. 
+
+  Please note: This repository contains all the neccesary files and presentations given during this session and the instructions for each one of the activities of the session.
 
 ---
 

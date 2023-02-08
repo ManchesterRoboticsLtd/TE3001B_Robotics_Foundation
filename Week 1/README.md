@@ -24,8 +24,13 @@
   * In this session, we introduce the basic concepts of ROS, such as ROS Master, Topics, Nodes, Launch files, etc.
   * The first activity involves the creation of a simple talker and listener nodes.
   * The activities and examples done during the class are located in the folder Activities.
-  * The Final challenge for this session is located in the folder Challenge. 
-  * Please note: This repository contains all the neccesary files and presentations given during this session and the instructions for each one of the activities of the session.
+
+  ## Mini Challenge
+  * Mini Challenge Create a "signal_generator" and "process" nodes and plot the results.
+  * The mini challenge and further instructions for this session is located in the folder Challenge. 
+
+  
+  Please note: This repository contains all the neccesary files and presentations given during this session and the instructions for each one of the activities of the session.
 
 ---
 

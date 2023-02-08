@@ -18,5 +18,10 @@
   ## Presentations
   
    ### MCR2_ROS_Introduction_Practicalities
-   In this presentation covers the following topics:
-   * 
+   This presentation covers the following topics:
+   * ROS Namespaces with Examples
+   * ROS Prameter FIles with Examples
+   * ROS Packages
+   * ROS Configuration Files
+   * ROS Custom Messages
+   * Activities
