@@ -25,8 +25,9 @@ This mini challenge is intended for the student to review the concepts introduce
 * The controller can be  “P”, “PI” or “PID” controller (other controllers can be accepted upon agreement with the professor.). 
 
 
-<p align="center"><img src="https://user-images.githubusercontent.com/67285979/206563707-58c3717c-3d44-4692-acf6-33dabcfb33ad.png" 
+<p align="center"><img src="https://user-images.githubusercontent.com/67285979/218272859-0c94088b-0727-4794-adab-621ee8fdf528.png" 
 alt="ROS Basics" width="400" border="10"/></p>
+
 
 ## Instructions
 
