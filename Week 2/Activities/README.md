@@ -25,5 +25,22 @@ In this folder, the student will find the files containing the solution for Acti
 alt="ROS Basics" width="450" border="10"/></p>
 
 ## Activity 2 : Parameters
+<p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240369-77d2d127-f807-4d8d-a260-a069a41e7f35.png" 
+alt="ROS Basics" width="450" border="10"/></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240379-015fa626-1293-474e-b35f-e892bbe92a7a.png" 
+alt="ROS Basics" width="450" border="10"/></p>
+
+
 ## Activity 3 : Parameter Files
+
+<p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240441-528f007a-e6b4-444b-80b1-69a10149f6b6.png" 
+alt="ROS Basics" width="250" border="10"/></p>
+
+
+
 ## Activity 4 : Custom Messages
+<p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240617-48e882ee-f746-494b-bf64-62299897c5e4.png" 
+alt="ROS Basics" width="350" border="10"/></p>
+
+
