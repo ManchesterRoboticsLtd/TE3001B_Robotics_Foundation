@@ -262,3 +262,4 @@ if _name=='__main_’:
   ```
     chmod +x foo.py   (change the foo for the script name)
   ```
+  * Run the node as previously defined. 
