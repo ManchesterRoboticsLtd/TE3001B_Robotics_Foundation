@@ -64,9 +64,45 @@ $ rosrun rqt_graph rqt_graph
 <p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240369-77d2d127-f807-4d8d-a260-a069a41e7f35.png" 
 alt="ROS Basics" width="450" border="10"/></p>
 
+
+
+
+* Open the previous example Launch file  “activity1.launch”, and overwrite it as follows (you can rename it as "activity2.launch")
+```
+<?xml version="1.0" ?>
+<launch>
+
+<param name = "Message" value = "Manchester Robotics Global!" />
+
+	<group ns = "Group1">
+		<param name = "Message" value = "Manchester Robotics Local!" />
+	
+		<node name="talker" pkg="basic_comms" type="talker.py" output="screen" launch-prefix="gnome-terminal --command" >
+		       <param name = "Message" value = "Manchester Robotics Private!" />
+		</node>
+		<node name="listener" pkg="basic_comms" type="listener.py" output="screen" launch-prefix="gnome-terminal --command" />
+	</group>
+	
+	<group ns = "Group2">
+		<param name = "Message" value = "Manchester Robotics Local!" />
+		<node name="talker" pkg="basic_comms" type="talker.py" output="screen" launch-prefix="gnome-terminal --command" >
+			<param name = "Message" value = "Manchester Robotics Private!" />
+		</node>
+		<node name="listener" pkg="basic_comms" type="listener.py" output="screen" launch-prefix="gnome-terminal --command" />
+	</group>
+
+</launch>
+```
+* Save the launch file and execute it as defined previously.
+* You will see the parameters being displayed when ROS initializes
+
 <p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240379-015fa626-1293-474e-b35f-e892bbe92a7a.png" 
 alt="ROS Basics" width="450" border="10"/></p>
 
+* Open another terminal and type the following command to view the parameters in ROS
+```
+$ rosparam list
+```
 
 ## Activity 3 : Parameter Files
 
