@@ -253,5 +253,6 @@ if _name=='__main_’:
 
         rospy.loginfo("The signal value is: %f at a time %f", signal, time)
         rate.sleep()
+    
     ```
 
