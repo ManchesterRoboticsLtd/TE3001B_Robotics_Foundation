@@ -21,6 +21,7 @@ In this folder, the student will find the files containing the solution for Acti
 * Compile the files using catkin_make from terminal (from the catkin_ws folder)
 
 ## Activity 1 : Namespaces
+This activity shows the usage of namespaces.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240259-d277e45b-7d44-4ba2-8b47-6da4d4d3255c.png" 
 alt="ROS Basics" width="450" border="10"/></p>
@@ -62,7 +63,7 @@ $ rosrun rqt_graph rqt_graph
 
 
 ## Activity 2 : Parameters
-
+This activity shows the usage of parameters in launch files.
 <p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240369-77d2d127-f807-4d8d-a260-a069a41e7f35.png" 
 alt="ROS Basics" width="450" border="10"/></p>
 
@@ -114,6 +115,7 @@ $ rosparam list
 * Save the file and execute it using the roslaunch file
 
 ## Activity 3 : Parameter Files
+This activity, shows the usage of parameter files.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240441-528f007a-e6b4-444b-80b1-69a10149f6b6.png" 
 alt="ROS Basics" width="250" border="10"/></p>
@@ -178,7 +180,7 @@ Private Parameter
 ```
 
 ## Activity 4 : Custom Messages
-
+This 
 <p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240617-48e882ee-f746-494b-bf64-62299897c5e4.png" 
 alt="ROS Basics" width="350" border="10"/></p>
 
@@ -253,6 +255,10 @@ if _name=='__main_’:
 
         rospy.loginfo("The signal value is: %f at a time %f", signal, time)
         rate.sleep()
-    
-    ```
 
+   ```
+
+  * Remember to make the nodes executable using the the following command inside the *catkin_ws/src/basic_comms/src* folders 
+  ```
+    chmod +x foo.py   (change the foo for the script name)
+  ```
