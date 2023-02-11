@@ -52,10 +52,9 @@ alt="ROS Basics" width="400" border="10"/></p>
   * Manchester robotics reserves the right to provide any form of grading. Grading and grading methodology are done by the professor in charge of the unit.
   
   ## Expected results
-  The following image shows the nodes and the topics that results from this challenge. 
+  Left image shows the nodes and the topics that results from this challenge. 
   
   Right image shows the plot of the results (using *rqt_plot*) where the blue line represents the "motor_output" signal and the cyan line represent the "motor_input" signal.
   
-  ![image](https://user-images.githubusercontent.com/67285979/206564567-999623aa-cd10-4726-ad66-2a7d780e78e5.png)
-
+  ![image](https://user-images.githubusercontent.com/67285979/218245351-3faffa54-d823-4dfe-9453-615a9cbe8454.png)
 
