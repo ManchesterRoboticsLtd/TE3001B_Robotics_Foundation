@@ -22,10 +22,10 @@
    
 ## General Information
 * Duration 5 Weeks
-* Classes: Monday and Thursday  (1 – 3 PM) / 5 Weeks
+* Classes: Monday and Thursday  (1 – 2 PM) / 5 Weeks
 * Starts: 13 February.
 * Ends: 17 March
-* ZOOM Link Classes: TBD
+* ZOOM Link Classes: https://itesm.zoom.us/j/4779422764
  
 ## General Requirements
 General requirements. Please be aware that a set of requirements especific for each session will be shown in each session subsection (Some items may be repeated).
