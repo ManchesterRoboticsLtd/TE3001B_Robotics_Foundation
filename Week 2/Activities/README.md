@@ -21,6 +21,9 @@ In this folder, the student will find the files containing the solution for Acti
 * Compile the files using catkin_make from terminal (from the catkin_ws folder)
 
 ## Activity 1 : Namespaces
+<p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240259-d277e45b-7d44-4ba2-8b47-6da4d4d3255c.png" 
+alt="ROS Basics" width="450" border="10"/></p>
+
 ## Activity 2 : Parameters
 ## Activity 3 : Parameter Files
 ## Activity 4 : Custom Messages
