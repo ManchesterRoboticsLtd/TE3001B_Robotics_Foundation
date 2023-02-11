@@ -180,7 +180,8 @@ Private Parameter
 ```
 
 ## Activity 4 : Custom Messages
-This 
+This activity shows the usage of custom messages for the previous Mini Challenge 1.
+
 <p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240617-48e882ee-f746-494b-bf64-62299897c5e4.png" 
 alt="ROS Basics" width="350" border="10"/></p>
 
