@@ -69,9 +69,8 @@ General requirements. Please be aware that a set of requirements especific for e
   * ROS Namespaces
   * ROS Parameter Server
   * Activity 1: Parametrise previous nodes
-  * ROS Custom Messages
   #### Session 2:
-  * Control Basics: Continuous time only/ no theory just practicalities.
+  * ROS Custom Messages
   * Q&A
   
   **Mini challenge:**: P/PI Controller from scratch to a 1st order simulated system.
