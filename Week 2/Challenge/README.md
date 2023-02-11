@@ -56,5 +56,5 @@ alt="ROS Basics" width="400" border="10"/></p>
   
   Right image shows the plot of the results (using *rqt_plot*) where the blue line represents the "motor_output" signal and the cyan line represent the "motor_input" signal.
   
-  ![image](https://user-images.githubusercontent.com/67285979/218245351-3faffa54-d823-4dfe-9453-615a9cbe8454.png)
-
+  <p align="center"><img src="https://user-images.githubusercontent.com/67285979/218245460-c8f88bf0-65f1-4e5a-94d2-9a6bed2157a3.png" 
+alt="ROS Basics" width="800" border="10"/></p>
