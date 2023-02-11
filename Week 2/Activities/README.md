@@ -24,6 +24,42 @@ In this folder, the student will find the files containing the solution for Acti
 <p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240259-d277e45b-7d44-4ba2-8b47-6da4d4d3255c.png" 
 alt="ROS Basics" width="450" border="10"/></p>
 
+* Open the launch file of the previous Talker and Listener Example (activity1.launch).
+* Modify it as follows
+```
+<?xml version="1.0" ?>
+<launch>
+	<group ns = "Group1">
+<node name="talker" pkg="basic_comms" type="talker.py" output="screen"    launch-prefix="gnome-terminal --command" />
+
+<node name="listener" pkg="basic_comms" type="listener.py" output="screen" launch-prefix="gnome-terminal --command" />    
+	</group>    
+
+	<group ns = "Group2">
+node name="talker" pkg="basic_comms" type="talker.py" output="screen" launch-prefix="gnome-terminal --command" />        
+
+<node name="listener" pkg="basic_comms" type="listener.py" output="screen" launch-prefix="gnome-terminal --command" />    
+	</group>
+
+</launch>
+
+```
+
+* Execute the Launch file
+```
+$ roslaunch basic_comms activity1.launch
+```
+
+* Execute the following command in a new terminal
+```
+$ rostopic list
+```
+* In a new terminal, execute the rqt_graph to visualise the nodes
+```
+$ rosrun rqt_graph rqt_graph
+```
+
+
 ## Activity 2 : Parameters
 <p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240369-77d2d127-f807-4d8d-a260-a069a41e7f35.png" 
 alt="ROS Basics" width="450" border="10"/></p>
