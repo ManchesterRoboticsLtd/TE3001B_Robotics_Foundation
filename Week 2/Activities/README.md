@@ -21,6 +21,7 @@ In this folder, the student will find the files containing the solution for Acti
 * Compile the files using catkin_make from terminal (from the catkin_ws folder)
 
 ## Activity 1 : Namespaces
+
 <p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240259-d277e45b-7d44-4ba2-8b47-6da4d4d3255c.png" 
 alt="ROS Basics" width="450" border="10"/></p>
 
@@ -61,11 +62,9 @@ $ rosrun rqt_graph rqt_graph
 
 
 ## Activity 2 : Parameters
+
 <p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240369-77d2d127-f807-4d8d-a260-a069a41e7f35.png" 
 alt="ROS Basics" width="450" border="10"/></p>
-
-
-
 
 * Open the previous example Launch file  “activity1.launch”, and overwrite it as follows (you can rename it as "activity2.launch")
 ```
@@ -179,7 +178,80 @@ Private Parameter
 ```
 
 ## Activity 4 : Custom Messages
+
 <p align="center"><img src="https://user-images.githubusercontent.com/67285979/218240617-48e882ee-f746-494b-bf64-62299897c5e4.png" 
 alt="ROS Basics" width="350" border="10"/></p>
 
+* In the “basic_comms” package (or the student's own package), create a folder named “msg”
+* Inside the folder “msg” create a file called “signal_msg.msg”
+* Open the file using a text editor and write the following.
+```
+ float32 time_x
+ float32 signal_y
+```
+* Save the file. The custom message has been created!
+
+* Open the CMakeLists.txt, of the “basic_comms” package (or the students’ package) and find the following line and modify it as follows
+```
+find_package(catkin REQUIRED COMPONENTS  rospy  std_msgs  message_generation)
+
+ add_message_files(   
+	FILES
+   signal_msg.msg 
+)
+
+ generate_messages(
+   DEPENDENCIES
+   std_msgs
+ )
+
+ catkin_package(
+#  INCLUDE_DIRS include
+#  LIBRARIES basic_comms
+  CATKIN_DEPENDS message_runtime
+#  DEPENDS system_lib
+)
+```
+
+* Save and Close the CmakeLists.txt.
+* Open the file package.xml
+* Uncomment or add the following lines
+```
+<build_depend>message_generation</build_depend>
+<exec_depend>message_runtime</exec_depend> 
+```
+* Save and close.
+
+* Open the "signal_generator.py" file.
+* Modify it as follows
+```
+#!/usr/bin/env python
+import rospy
+import numpy as np
+from basic_comms.msg import signal_msg  #Import the message to be used
+
+if _name=='__main_’:
+
+	## Declare the new message to be used
+    signal_pub=rospy.Publisher("signal",signal_msg, queue_size=10)    
+
+	rospy.init_node("signal_generator")
+    rate = rospy.Rate(10)
+    init_time = rospy.get_time()
+    msg = signal_msg()
+
+    while not rospy.is_shutdown():
+        time = rospy.get_time()-init_time
+        signal = np.sin(time)
+
+	    ## Fill the message with the required information	
+        msg.time_x = time
+        msg.signal_y = signal
+
+	    ## Publish the message
+        signal_pub.publish(msg)
+
+        rospy.loginfo("The signal value is: %f at a time %f", signal, time)
+        rate.sleep()
+    ```
 
