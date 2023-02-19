@@ -15,37 +15,25 @@
   This session is intended for the students to learn how to connect ROS with external hardware using rosserial tools that will be required in the following sessions. 
 
   ## Session 1
-  * In this session, the concepts of ROS namespaces, and ROS parameter server will be introduced.
-  * Activity 1: Multiple group namespaces
-  * Activity 2: Local, Private and Global parameters. 
+  * In this session, the concepts of rosserial, some examples of usage and the correct structure of the .ino sketch to be programmed in the MCU, will be shown.
+  * The Arduino IDE configuraton for using the rosserial libraries will be shown.
+  * Activity 1: Simple talker publishing from the MCU to the Computer.
 
   
   ## Session 2
-  * In this session, the concept of CMake files, Configuration Files and Custom Messages in ROS is introduced.
-  * Activity 1: Generate a custom message for the previous challenge
-  * Activity 2: Parametrise the "process" and "signal_generator" Nodes, and generate a custom message for the previous challenge.
+  * In this session, some basic concepts of DC motors ans application examples will be shown.
 
   ## Mini challenge
-  * Create a Simple P or PI controller for a simulated first order process.
+  * Regulate the speed and direction of a motor using a MCU controlled from a computer using rosserial.
   * The mini challenge and further instructions for this session is located in the folder Challenge. 
 
   Please note: This repository contains all the neccesary files and presentations given during this session and the instructions for each one of the activities of the session.
 
 ---
 
-## YouTube Video
-  In this video, Rebeca shows us some of the key concepts of ROS. This video is for reference only, the activities shown are not required to be performed. Some concepts in this video will be seen in session 2.
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=IF-k6KhhRkE
-" target="_blank"><p align="center"><img src="http://img.youtube.com/vi/IF-k6KhhRkE/0.jpg" 
-alt="ROS Basics" width="300" border="10"/></p></a> 
-
-<div align="center"> https://www.youtube.com/watch?v=IF-k6KhhRkE&ab_channel=ManchesterRobotics </div>
-
----
-
 ## Live recordings are stored in the following link
 
+https://drive.google.com/drive/folders/1zwf-i3HS0DGVfw6-EP8dxm5uoH7hNtVi?usp=sharing
 ---
 
 ### Useful Links: 
@@ -59,6 +47,9 @@ alt="ROS Basics" width="300" border="10"/></p></a>
  * [ROS Workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
  * [Publisher and Subscribers](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29)
  * [Roslaunch](http://wiki.ros.org/roslaunch)
+ * [Custom Messages](http://wiki.ros.org/ROS/Tutorials/CustomMessagePublisherSubscriber%28python%29)
+ * [Define Custom Messages](http://wiki.ros.org/ROS/Tutorials/DefiningCustomMessages)
+ * [Messages and Services](http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv)
 
 #### Virtual Machine (Google Drive): 
   * [VM Ware](https://drive.google.com/file/d/1Kqt8E69nB5pxYzyVztyoxF0UY9yCHLns/view)

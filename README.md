@@ -27,7 +27,7 @@
 * Ends: 17 March
 * ZOOM Link Classes: https://itesm.zoom.us/j/4779422764
 
-## Sessions (Recordings)
+## Live Sessions (Recordings)
 https://drive.google.com/drive/folders/1zwf-i3HS0DGVfw6-EP8dxm5uoH7hNtVi?usp=sharing
 
  

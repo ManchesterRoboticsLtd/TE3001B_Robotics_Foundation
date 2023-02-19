@@ -45,7 +45,7 @@ alt="ROS Basics" width="300" border="10"/></p></a>
 ---
 
 ## Live recordings are stored in the following link
-
+https://drive.google.com/drive/folders/1zwf-i3HS0DGVfw6-EP8dxm5uoH7hNtVi?usp=sharing
 ---
 
 ### Useful Links: 
@@ -53,6 +53,9 @@ alt="ROS Basics" width="300" border="10"/></p></a>
   * [Ubuntu Installation](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
 
 #### ROS
+ * [Custom Messages](http://wiki.ros.org/ROS/Tutorials/CustomMessagePublisherSubscriber%28python%29)
+ * [Define Custom Messages](http://wiki.ros.org/ROS/Tutorials/DefiningCustomMessages)
+ * [Messages and Services](http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv)
  * [ROS Installation](http://wiki.ros.org/noetic/Installation/Ubuntu)
  * [ROS book](https://www.cse.sc.edu/~jokane/agitr/)
  * [ROS Packages](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
