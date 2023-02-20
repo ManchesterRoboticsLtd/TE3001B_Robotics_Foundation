@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<launch>
+
+    <rosparam file = "$(find basic_comms)/config/signalGen_params.yaml" command = "load" />
+    <rosparam file = "$(find basic_comms)/config/process_params.yaml" command = "load" />
+    <group ns = "Group1">
+        <node name="signal_generator" pkg="basic_comms" type="signal_generator.py" output="screen" launch-prefix="gnome-terminal --command" />
+        <node name="signal_process" pkg="basic_comms" type="process.py" output="screen" launch-prefix="gnome-terminal --command" />
+    </group>
+
+</launch>

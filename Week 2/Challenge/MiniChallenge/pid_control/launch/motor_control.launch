@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<launch>
+
+    <node name="system" pkg="pid_control" type="system.py" output="screen"/>
+    <node name="rqt_plot" pkg="rqt_plot" type="rqt_plot" output="screen"  args="/motor_output/output /motor_input/input"/>
+</launch>

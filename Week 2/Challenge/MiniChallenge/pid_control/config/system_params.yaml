@@ -1,0 +1,7 @@
+system_node_rate : 100
+system_sample_time : 0.02
+system_param_K : 1.75
+system_param_T : 0.5
+system_initial_cond :  0.0
+system_max_speed : 13.0
+system_min_input : 0.5

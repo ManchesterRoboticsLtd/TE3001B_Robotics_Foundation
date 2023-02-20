@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<launch>
+<param name = "Message" value = "Manchester Robotics Global!" />
+
+	<group ns = "Group1">
+		<param name = "Message" value = "G1 Manchester Robotics Local!" />
+	
+		<node name="talker" pkg="basic_comms" type="talker.py" output="screen" launch-prefix="gnome-terminal --command" >
+		       <param name = "Message" value = "G1 Manchester Robotics Private!" />
+		</node>
+		<node name="listener" pkg="basic_comms" type="listener.py" output="screen" launch-prefix="gnome-terminal --command" />
+	</group>
+	
+	<group ns = "Group2">
+		<param name = "Message" value = "G2 Manchester Robotics Local!" />
+		<node name="talker" pkg="basic_comms" type="talker.py" output="screen" launch-prefix="gnome-terminal --command" >
+			<param name = "Message" value = "G2 Manchester Robotics Private!" />
+		</node>
+		<node name="listener" pkg="basic_comms" type="listener.py" output="screen" launch-prefix="gnome-terminal --command" />
+	</group>
+
+</launch>

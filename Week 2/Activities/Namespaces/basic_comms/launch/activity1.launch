@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<launch>
+    <group ns = "Group1">
+        <node name="talkerG1" pkg="basic_comms" type="talker.py" output="screen" launch-prefix="gnome-terminal --command" />
+        <node name="listenerG1" pkg="basic_comms" type="listener.py" output="screen" launch-prefix="gnome-terminal --command" />
+    </group>
+
+    <group ns = "Group2">
+        <node name="talkerG2" pkg="basic_comms" type="talker.py" output="screen" launch-prefix="gnome-terminal --command" />
+        <node name="listenerG2" pkg="basic_comms" type="listener.py" output="screen" launch-prefix="gnome-terminal --command" />
+    </group>
+
+</launch>

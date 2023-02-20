@@ -1,0 +1,11 @@
+Message: "Parameter YAML File Global"
+
+Group1:
+  Message: "Parameter YAML File local G1"
+  talker:
+    Message: "Parameter YAML File private G1"
+
+Group2:
+  Message: "Parameter YAML File local G2"
+  talker:
+    Message: "Parameter YAML File private G2"
