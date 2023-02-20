@@ -34,11 +34,16 @@
 ## Live recordings are stored in the following link
 
 https://drive.google.com/drive/folders/1zwf-i3HS0DGVfw6-EP8dxm5uoH7hNtVi?usp=sharing
+
 ---
 
 ### Useful Links: 
 #### Ubuntu
   * [Ubuntu Installation](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+
+#### Robotics
+* [DC Motors](https://en.wikipedia.org/wiki/DC_motor)
+* [H-Bridge](https://www.youtube.com/watch?v=fVgnUWIWzZ8&ab_channel=NorthwesternRobotics)
 
 #### ROS
  * [ROS Installation](http://wiki.ros.org/noetic/Installation/Ubuntu)
