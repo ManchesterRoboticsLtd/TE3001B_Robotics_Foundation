@@ -25,6 +25,18 @@ In this folder, the student will find the files containing the solution for Acti
 * Arduino ROS Libraries
 * Hackerboard/Arduino Mega/Arduino Uno
 
+## Instructions
+
+* Configure the Arduino IDE according to the presentation "*MCR2_ROS_ArduinoIDE_Configuration*"
+* Install the ROS Arduino libraries 
+    * Open the folder "*ROS_Arduino_Library*"
+    * Open the folder according to your OS.
+    * Download the .zip file. 
+    * Import the libraries according to the tutorial in the following link
+        [Arduino IDE Libraires](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries)
+* Compile the projects
+* Upload it to the Hackerboard or Arduino
+
 ## Activity 1 : Rosserial
 * In this activity, a node running a simple publisher will be made.
 * This node will run inside the microcontroller and will communicate with the computer through serial communication using the rosserial protocol.
