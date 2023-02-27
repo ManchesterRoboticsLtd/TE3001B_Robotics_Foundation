@@ -10,31 +10,27 @@
   <img alt="Shows MCR2 logo in black or white." width="150" align="right">
 </picture>
 
-# Week 2: Mini challenge
+# Week 3: MCR2 MCR2 DC Motor Mini Challenge
 
-* In this folder, the student will find the neccessary files for Mini challenge 2.
-* The instruction for this challenge can be found inside the presentation *MCR2_MiniChallenge_2*
+* In this folder, the student will find the neccessary files for Mini challenge 3.
+* The instruction for this challenge can be found inside the presentation *MCR2_MiniChallenge_3*
 
 ### << We Encourage the students to NOT USE the files and follow the instructions during class and in the presentation to make this activity !! >>
 
 ## Description
 This mini challenge is intended for the student to review the concepts introduced in the previous sessions.
-* The activity consists of creating a controller for a simple first order system (/system) in ROS. 
-* The system represents the dynamical behaviour of a DC Motor.
-* The “/system” node, and a simple program structure (not mandatory) are provided by MCR2.
-* The controller can be  “P”, “PI” or “PID” controller (other controllers can be accepted upon agreement with the professor.). 
 
-
-<p align="center"><img src="https://user-images.githubusercontent.com/67285979/218272859-0c94088b-0727-4794-adab-621ee8fdf528.png" 
-alt="ROS Basics" width="400" border="10"/></p>
 
 
 ## Instructions
 
-* Download the "*pid_control*" package into your *catkin_ws/src* folder.
-* Complete the node files *"controller.py"* and *"set_point_generator.py"* inside the *"scripts"* folder, according to the problem description and instructions.
-* Complete the Roslaunch and msg files inside the *"launch"* and *"msg"* folder
-* Execute the nodes using the *rosalunch* command.
+* Download the "*motor_control*" package into your *catkin_ws/src* folder.
+* Open the launch folder and modify the port to be used (ttyUSB0 or ttyACM0 accordingly) inside "*motor.launch*" file
+```
+    <node name="motor" pkg="rosserial_python" type="serial_node.py">
+    <param name="port"	type="string"	value="/dev/ttyUSB0"/>   
+    </node>
+```
 
   - Remember to make the nodes executable using the the following commands
 ```
@@ -52,10 +48,4 @@ alt="ROS Basics" width="400" border="10"/></p>
   * All the students must be respectful towards each other and abide by the previously defined rules.
   * Manchester robotics reserves the right to provide any form of grading. Grading and grading methodology are done by the professor in charge of the unit.
   
-  ## Expected results
-  Left image shows the nodes and the topics that results from this challenge. 
-  
-  Right image shows the plot of the results (using *rqt_plot*) where the blue line represents the "motor_output" signal and the cyan line represent the "motor_input" signal.
-  
-  <p align="center"><img src="https://user-images.githubusercontent.com/67285979/218245460-c8f88bf0-65f1-4e5a-94d2-9a6bed2157a3.png" 
-alt="ROS Basics" width="800" border="10"/></p>
+
