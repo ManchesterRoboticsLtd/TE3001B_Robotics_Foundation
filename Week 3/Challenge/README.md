@@ -20,8 +20,6 @@
 ## Description
 This mini challenge is intended for the student to review the concepts introduced in the previous sessions.
 
-
-
 ## Instructions
 
 * Download the "*motor_control*" package into your *catkin_ws/src* folder.
@@ -31,8 +29,10 @@ This mini challenge is intended for the student to review the concepts introduce
     <param name="port"	type="string"	value="/dev/ttyUSB0"/>   
     </node>
 ```
+* Modify the line 164 of the CMakeLists.txt with the name of your script e.g., scripts/foo.py
 
-  - Remember to make the nodes executable using the the following commands
+* Remember to change Port permissions in Ubuntu as shown in the presentation.
+* Remember to make the nodes executable using the the following commands
 ```
  chmod +x foo.py
 ```
