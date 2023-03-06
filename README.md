@@ -97,13 +97,13 @@ General requirements. Please be aware that a set of requirements especific for e
     * In case you have no access to the Hackeborad, the hardware can be replaced for an Arduino Mega, a L298n Motor Driver and a DC motor brushed with encoder (More information MCR2_General_Information_Prerequisites).
   
   ### Week 4: ROS Data Acquisition
-  This week will introduce how to acquire data between ROS and the Hackerboard using ROSSerial.
+  This week will introduce how to acquire data between ROS and the Hackerboard using ROSserial.
   #### Session 1:
   * Encoder Basic Theory
   
   **Mini challenge:** Acquire data from the encoders using Arduino.
-  
-  **Challenge:**: PID Controller using ROS and compare with simulation.
+  **Final Challenge:**: PID Controller using ROS and compare with simulation.
+
   
   #### Session 2:
   * Q&A Session.
@@ -112,6 +112,7 @@ General requirements. Please be aware that a set of requirements especific for e
   
   ### Week 5: Final Challenge
   Final Challenge presentation week.
+  **Final Challenge:**: PID Controller using ROS and compare with simulation.
   #### Session 1:
   * Q&A Session.
   #### Session 2:
