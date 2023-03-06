@@ -10,7 +10,7 @@
   <img alt="Shows MCR2 logo in black or white." width="150" align="right">
 </picture>
 
-# Week 3: MCR2 MCR2 DC Motor Mini Challenge
+# Week 3: MCR2 DC Motor Mini Challenge
 
 * In this folder, the student will find the neccessary files for Mini challenge 3.
 * The instruction for this challenge can be found inside the presentation *MCR2_MiniChallenge_3*
