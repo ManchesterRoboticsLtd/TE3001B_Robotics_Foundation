@@ -112,6 +112,7 @@ General requirements. Please be aware that a set of requirements especific for e
   
   ### Week 5: Final Challenge
   Final Challenge presentation week.
+  
   **Final Challenge:**: PID Controller using ROS and compare with simulation.
   #### Session 1:
   * Q&A Session.
