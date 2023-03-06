@@ -23,18 +23,19 @@ This mini challenge is intended for the student to review the concepts introduce
 ## Instructions
 * Read the instructions of the challenge inside the presentation.
 * For this challenge the student must develop an open loop control for the DC Motor.
-
-## Some useful links
-[ROSserial Logging](http://wiki.ros.org/rosserial_arduino/Tutorials/Logging)
-[ROSSerial Subscriber](http://wiki.ros.org/rosserial_arduino/Tutorials/Blink)
-[ROSSerial Oscilloscope Example](http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20Oscilloscope)
-[ROSSerial Pushbutton Example](http://wiki.ros.org/rosserial_arduino/Tutorials/Push%20Button)
-
 * Remember to change Port permissions in Ubuntu as shown in the presentation.
 * Remember to make the nodes executable using the the following commands
 ```
  chmod +x foo.py
 ```
+
+## Some useful links
+* [ROSserial Logging](http://wiki.ros.org/rosserial_arduino/Tutorials/Logging)
+* [ROSSerial Subscriber](http://wiki.ros.org/rosserial_arduino/Tutorials/Blink)
+* [ROSSerial Oscilloscope Example](http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20Oscilloscope)
+* [ROSSerial Pushbutton Example](http://wiki.ros.org/rosserial_arduino/Tutorials/Push%20Button)
+
+
 
 ## Rules
   * This is challenge not a class. The students are encouraged to research, improve tune explain their algorithms by themselves.
