@@ -102,7 +102,7 @@ General requirements. Please be aware that a set of requirements especific for e
   * Encoder Basic Theory
   
   **Mini challenge:** Acquire data from the encoders using Arduino.
-  **Final Challenge:**: PID Controller using ROS and compare with simulation.
+  **Final Challenge:** PID Controller using ROS and compare with simulation.
 
   
   #### Session 2:
