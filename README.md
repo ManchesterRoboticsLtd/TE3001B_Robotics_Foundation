@@ -121,4 +121,3 @@ General requirements. Please be aware that a set of requirements especific for e
   
   **Requirements:** Requirements of Session 1 and Session 3.
 
-  Hola
